@@ -1,0 +1,179 @@
+.body_style
+{
+	background-image: url('back.gif'); 
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: 'Nerko One', cursive;
+}
+.first_screen_div
+{
+ display: block; 
+ text-align: center;
+  font-size: 5vw;
+  color:#db2e8d ;
+}
+.feed_me
+{
+	font-family: 'Nerko One', cursive;font-size: 3vw;
+	 border: 2px solid black;border-color: #04d4b4;
+	 color: white;background-color: #038f7a ;border-radius: 20px;
+	padding-right: 2%;padding-left: 2%; margin-bottom: 2%;
+}
+.score_div
+{
+	width: 100%;display:none;
+	font-size: 3vw;color: #db2e8d;
+}
+.btn_div
+{
+	text-align: center;display: none;width: 100%;
+}
+.start_button
+{
+	font-family: 'Nerko One', cursive;
+	font-size: 3vw; border: 2px solid black;
+	border-color:#fae423 ;color: white;
+	background-color:#cfba04 ;
+	border-radius: 20px;
+	padding-right: 1%;padding-left: 1%;
+}
+.stop_button
+{
+	font-family: 'Nerko One', cursive;
+	font-size: 3vw; border: 2px solid black;
+	border-color: #04d4b4;color: white;
+	background-color: #038f7a ;
+	border-radius: 20px;
+	padding-right: 2%;padding-left: 2%;
+}
+.carrot_disp
+{
+	width:80%;padding-right:10%;
+	padding-left: 10%;
+	padding-top:10%;
+height: 300px;
+		 display: none;
+}
+
+.div_deco1
+{
+	height: 100px ;
+	width:90px ;
+	
+	border:2px ;
+	float: left;
+	
+
+}
+.div_deco2
+{
+	height: 100px ;
+	width:90px;
+	
+	float: left;
+	border:2px;
+	
+}
+.result_div
+{
+
+	width: 30%;
+	float: left;
+	margin-top: 8%;
+	margin-bottom: 8%;
+	margin-left: 10%;
+	text-align: left;
+}
+.result_scores
+{
+	width: 30%;float: left;margin-top: 8%;
+	margin-bottom: 7%;
+	font-size: 4vw;color:#db2e8d  ;
+		margin-left: 10%;
+	  text-shadow: 2px 2px #660066;
+	  text-align: center;
+}
+.result_btn
+{
+	font-family: 'Nerko One', cursive;
+	font-size: 3vw; 
+	border: 2px solid black;
+	border-color:#fae423 ;
+	color: white;
+	background-color:#cfba04 ;
+	border-radius: 20px;
+	padding-right: 1%;
+	padding-left: 1%;
+}
+/*.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+ 
+  margin: 10px;
+  text-align: center;
+  
+}*/
+@media only screen and (max-width: 570px)
+{
+	.carrot_disp
+ {
+	width:80%;padding-right:10%;
+	padding-left: 10%;
+	padding-top:10%;
+    height: 100px;
+    display: none;
+}
+	.div_deco1
+{
+	height: 30px ;
+	width:20px ;
+	
+	border:2px ;
+	float: left;
+	
+
+}
+.div_deco2
+{
+	height: 30px ;
+	width:20px;
+	
+	float: left;
+	border:2px;
+	
+}
+}
+@media only screen and (min-width: 570px) and (max-width: 1000px)
+{
+	.carrot_disp
+ {
+	width:80%;padding-right:10%;
+	padding-left: 10%;
+	padding-top:10%;
+    height: 100px;
+    display: none;
+}
+	.div_deco1
+{
+	height: 25px ;
+	width:20px ;
+	
+	border:2px ;
+	float: left;
+	
+
+}
+.div_deco2
+{
+	height: 25px ;
+	width:20px;
+	
+	float: left;
+	border:2px;
+	
+}
+}
